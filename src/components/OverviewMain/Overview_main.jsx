@@ -9,7 +9,7 @@ function Overview_main() {
 			        	<br/>
 			        	<br/>
 			        	<div class="col-md-12">
-			        		<h1>
+			        		<h1 className='overviewMain-h1'>
 			        			PancakeSwap Info & Analytics
 			        		</h1>
 			        	</div>
@@ -2734,7 +2734,7 @@ function Overview_main() {
 
 					<div class="row">
 						<div class="col-md-12">
-							<h2>Top Tokens</h2>
+							<h2 className='overviewMain-h2'>Top Tokens</h2>
 							<br/>
 						</div>
 						<br/>
@@ -2985,7 +2985,7 @@ function Overview_main() {
 				    <br/>
 				    <div class="row">
 						<div class="col-md-12">
-							<h2>Top Pools</h2>
+							<h2 className='overviewMain-h2'>Top Pools</h2>
 							<br/>
 						</div>
 						<br/>
@@ -3192,7 +3192,7 @@ function Overview_main() {
 				    <br/>
 				    <div class="row">
 						<div class="col-md-12">
-							<h2>Transactions</h2>
+							<h2 className='overviewMain-h2'>Transactions</h2>
 						</div>
 						<div class="col-md-12">
 							
