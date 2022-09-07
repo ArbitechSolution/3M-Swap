@@ -39,7 +39,7 @@ function About_main() {
               <br />
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 mt-3">
               <svg
                 data-v-70981b1d=""
                 data-v-0e11c1f7=""
@@ -58,7 +58,7 @@ function About_main() {
               </svg>
               <span style={{ position: 'absolute' , color:"#fff" }}>No sign-up</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mt-3">
               <svg
                 data-v-70981b1d=""
                 data-v-0e11c1f7=""
@@ -78,7 +78,7 @@ function About_main() {
               <span style={{ position: 'absolute' , color:"#fff" }}>18 partners</span>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 mt-3">
               <svg
                 data-v-70981b1d=""
                 data-v-0e11c1f7=""
@@ -97,7 +97,7 @@ function About_main() {
               </svg>
               <span style={{ position: 'absolute' , color:"#fff" }}>More than 900 coins</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mt-3">
               <svg
                 data-v-70981b1d=""
                 data-v-0e11c1f7=""
@@ -119,7 +119,7 @@ function About_main() {
           </div>
           <br />
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 mt-3">
               <svg
                 data-v-70981b1d=""
                 data-v-0e11c1f7=""
@@ -138,7 +138,7 @@ function About_main() {
               </svg>
               <span style={{ position: 'absolute' , color:"#fff" }}>No limits</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mt-3">
               <svg
                 data-v-70981b1d=""
                 data-v-0e11c1f7=""
@@ -158,7 +158,7 @@ function About_main() {
               <span style={{ position: 'absolute' , color:"#fff" }}>24/7 support</span>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 mt-3">
               <svg
                 data-v-70981b1d=""
                 data-v-0e11c1f7=""
@@ -177,7 +177,7 @@ function About_main() {
               </svg>
               <span style={{ position: 'absolute' , color:"#fff" }}>Affiliate program</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mt-3">
               <svg
                 data-v-70981b1d=""
                 data-v-0e11c1f7=""

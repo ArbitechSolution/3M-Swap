@@ -50,23 +50,25 @@ function Header() {
             <Nav.Link href="#pricing">Pricing</Nav.Link> */}
             </Nav>
             <Nav>
-              <Nav.Link href="#deets" className="gift gift3 m-0">
+              <Nav.Link  className="gift gift3 m-0">
                 <Link to="/swap">
-                  {' '}
                   <FaGift className="gift"></FaGift> How To Win $100+
                 </Link>
               </Nav.Link>
-              <Nav.Link href="#deets" className="gift3 work">
+              <Nav.Link  className="gift3 work">
                 <Link to="/Work_main">How It Work</Link>
               </Nav.Link>
-              <Nav.Link href="#deets" className="gift3">
+              <Nav.Link  className="gift3">
                 <Link to="/About_main">About</Link>
               </Nav.Link>
-              <Nav.Link eventKey={2} href="#memes" className="gift3">
+              <Nav.Link  className="gift3">
                 <Link to="/Faq_main">FAQ</Link>
               </Nav.Link>
-
-              <NavDropdown title="Info" id="collasible-nav-dropdown" className="gift3">
+              {/* <Nav.Link className="gift3">
+                <Link to="/pool">Pool</Link>
+              </Nav.Link> */}
+              
+              {/* <NavDropdown title="Info" id="collasible-nav-dropdown" className="gift3">
                 <NavDropdown.Item href="#action/3.2">
                   <Link to="/Overview_main">Overview</Link>
                 </NavDropdown.Item>
@@ -76,7 +78,7 @@ function Header() {
                 <NavDropdown.Item href="#action/3.3">
                   <Link to="/Token_main">Tokens</Link>{' '}
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

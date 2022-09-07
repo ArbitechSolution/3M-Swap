@@ -28,6 +28,7 @@ import Faq_main from 'components/FaqMain/Faq_main'
 import Pool_main from 'components/PoolMain/Pool_main'
 import Overview_main from 'components/OverviewMain/Overview_main'
 import Footer from 'components/Footer/Footer'
+import Token_main from 'components/TokenMain/Token_main'
 
 const AppWrapper = styled.div`
   display: flex;
@@ -171,7 +172,7 @@ export default function App() {
                     <Route path="/Faq_main" component={Faq_main } />
                     <Route path="/Overview_main" component={Overview_main } />
                     <Route path="/Pool_main" component={Pool_main } />
-                    {/* <Route path="/Token_main" element={<Token_main />} /> */}
+                    <Route path="/Token_main" component={ Token_main } />
                     {/* <Route component={RedirectPathToSwapOnly} /> */}
                     <Marginer />
                   </BodyWrapper>
