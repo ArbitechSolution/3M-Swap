@@ -25,20 +25,23 @@ const Menu: React.FC = (props) => {
   const loc = useLocation()
   console.log('loc', loc)
   const getUrl = () => {
-    if (loc?.pathname?.includes('/swap')|| loc?.pathname?.includes('/find')|| 
-    loc?.pathname?.includes('/pool')||
-    loc?.pathname?.includes('/add')||
-    loc?.pathname?.includes('/farms')||
-    loc?.pathname?.includes('/remove')) {
-      return false;
-    }else{
-      return true;
+    if (
+      loc?.pathname?.includes('/swap') ||
+      loc?.pathname?.includes('/find') ||
+      loc?.pathname?.includes('/pool') ||
+      loc?.pathname?.includes('/add') ||
+      loc?.pathname?.includes('/farms') ||
+      loc?.pathname?.includes('/remove')
+    ) {
+      return false
+    } else {
+      return true
     }
   }
-  console.log('links ==>',links )
+  console.log('links ==>', links)
   return (
     <>
-      {getUrl()? (
+      {getUrl() ? (
         <>{props?.children}</>
       ) : (
         <UikitMenu

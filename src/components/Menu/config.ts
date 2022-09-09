@@ -22,11 +22,11 @@ const config: MenuEntry[] = [
     ],
   },
 
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: 'https://pool.wireswap.io',
-  // },
+  {
+    label: 'Pools',
+    icon: 'PoolIcon',
+    href: 'https://pool.wireswap.io',
+  },
   {
     label: 'Farms',
     icon: 'FarmIcon',

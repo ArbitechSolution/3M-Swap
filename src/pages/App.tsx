@@ -150,34 +150,34 @@ export default function App() {
               <Switch>
                 <TranslationsContext.Provider value={{ translations, setTranslations }}>
                   <Header />
-                  {/* <Menu> */}
-                  <BodyWrapper>
-                    {/* <Popups /> */}
-                    <Route exact strict path="/swap" component={Swap} />
-                    <Route exact strict path="/find" component={PoolFinder} />
-                    <Route exact strict path="/pool" component={Pool} />
-                    <Route exact path="/add" component={AddLiquidity} />
-                    <Route exact path="/add/:currencyIdA" component={AddLiquidity} />
-                    <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
-                    <Route exact path="/home" component={Home} />
-                    <Route exact strict path="/farms" component={Farms} />
+                  <Menu>
+                    <BodyWrapper>
+                      {/* <Popups /> */}
+                      <Route exact strict path="/swap" component={Swap} />
+                      <Route exact strict path="/find" component={PoolFinder} />
+                      <Route exact strict path="/pool" component={Pool} />
+                      <Route exact path="/add" component={AddLiquidity} />
+                      <Route exact path="/add/:currencyIdA" component={AddLiquidity} />
+                      <Route exact strict path="/remove/:currencyIdA/:currencyIdB" component={RemoveLiquidity} />
+                      <Route exact path="/home" component={Home} />
+                      <Route exact strict path="/farms" component={Farms} />
 
-                    {/* Redirection: These old routes are still used in the code base */}
-                    {/* <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} /> */}
-                    <Route exact path="/add/:currencyIdA/:currencyIdB" component={RedirectDuplicateTokenIds} />
-                    <Route exact strict path="/remove/:tokens" component={RedirectOldRemoveLiquidityPathStructure} />
-                    <Route exact strict path="/" component={Home} />
-                    <Route path="/Work_main" component={ Work_main } />
-                    <Route path="/About_main" component={About_main } />
-                    <Route path="/Faq_main" component={Faq_main } />
-                    <Route path="/Overview_main" component={Overview_main } />
-                    <Route path="/Pool_main" component={Pool_main } />
-                    <Route path="/Token_main" component={ Token_main } />
-                    {/* <Route component={RedirectPathToSwapOnly} /> */}
-                    <Marginer />
-                  </BodyWrapper>
-                  <Footer />
-                  {/* </Menu> */}
+                      {/* Redirection: These old routes are still used in the code base */}
+                      {/* <Route exact path="/add/:currencyIdA" component={RedirectOldAddLiquidityPathStructure} /> */}
+                      <Route exact path="/add/:currencyIdA/:currencyIdB" component={RedirectDuplicateTokenIds} />
+                      <Route exact strict path="/remove/:tokens" component={RedirectOldRemoveLiquidityPathStructure} />
+                      <Route exact strict path="/" component={Home} />
+                      <Route path="/Work_main" component={Work_main} />
+                      <Route path="/About_main" component={About_main} />
+                      <Route path="/Faq_main" component={Faq_main} />
+                      <Route path="/Overview_main" component={Overview_main} />
+                      <Route path="/Pool_main" component={Pool_main} />
+                      <Route path="/Token_main" component={Token_main} />
+                      {/* <Route component={RedirectPathToSwapOnly} /> */}
+                      <Marginer />
+                    </BodyWrapper>
+                    <Footer />
+                  </Menu>
                 </TranslationsContext.Provider>
               </Switch>
             </Web3ReactManager>
